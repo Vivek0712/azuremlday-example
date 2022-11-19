@@ -28,7 +28,7 @@ az extension add -n ml -y
 # <set_variables>
 GROUP="azuremlday"
 LOCATION="centralus"
-WORKSPACE="main"
+WORKSPACE="azuremlday"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
