@@ -18,7 +18,7 @@ jobs:
         mode: upload
     code: src/prep
     environment: azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest
-    compute: azureml:cpu-cluster
+    compute: azureml:azuremlcompute
     command: >-
       python prep.py 
       --raw_data ${{inputs.raw_data}} 
